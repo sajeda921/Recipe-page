@@ -1,0 +1,124 @@
+@font-face {
+  font-family: 'young-serif';
+  src: url('./fonts/YoungSerif-Regular.ttf') format('truetype');
+  font-weight: bold;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'outfit';
+  src: url('./fonts/Outfit-VariableFont_wght.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+body{
+    background-color: hsl(30, 54%, 90%);
+    padding: 20px;
+    letter-spacing: 0.3px;;
+}
+/*main*/
+.menu{
+    width: 80%;
+    max-width: 500px;
+    background-color: hsl(0, 0%, 100%);
+    padding: 20px;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 10px;
+}
+/*header*/
+img{
+    display: block;
+    width: 100%;
+    border-radius: 10px; 
+    margin-left: auto;
+    margin-right: auto;
+   
+}
+h1,h2{
+    font-family: 'young-serif';
+}
+h1{
+    font-size: 18px;
+    color:hsl(24, 5%, 18%);
+}
+h2{
+    color: hsl(14, 45%, 36%);
+    font-size: 12px;
+}
+h3{
+    font-family: 'outfit';
+    font-size: 10px;
+    color: hsl(332, 51%, 32%);
+    padding-top: 5px;
+}
+.preparation{
+    display: block;
+    background-color: hsl(330, 100%, 98%);
+    padding-top: 3px;
+    padding-left: 10px;
+    padding-bottom: 3px;
+    border-radius: 10px;
+}
+p,li{
+    font-family: 'outfit';
+    font-size: 7.5px;
+    color:hsl(24, 5%, 18%);
+}
+.unorder, .order{
+   text-align: left;
+   padding-left: 10px;
+   margin-top: 10px;
+   line-height: 10px;
+}
+.element1,.element2 {
+    padding-left: 5px;
+    padding-top: 5px;
+}
+.element1::marker{
+    color: hsl(332, 51%, 32%);
+}
+.element2::marker{
+    color: hsl(14, 45%, 36%);
+    font-weight: bold;
+}
+hr{
+    color: hsl(30, 18%, 87%);
+    background-color: hsl(30, 18%, 87%);
+    border: none;
+    height: 0.3px;
+    
+}
+.item p{
+    display: inline-block;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    padding-left: 15px;
+}
+.type{
+    width: 45%;
+    text-align: left;
+    max-width: 47%;
+}
+.val{
+    width: 45%;
+    text-align: left;
+    font-weight: bold;
+    color: hsl(14, 45%, 36%);
+    max-width: 47%;
+}
+/*footer*/
+footer p{
+    color: hsl(14, 45%, 36%);
+}
+a{
+    color: hsl(14, 45%, 36%);
+}
+a:hover{
+    color: hsl(24, 5%, 18%);
+}
+a:visited{
+    color: hsl(14, 45%, 36%);
+}
+a:active{
+    color: hsl(14, 45%, 36%);
+}
